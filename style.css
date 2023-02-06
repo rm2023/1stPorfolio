@@ -48,6 +48,13 @@ header {
     font-size: xx-large; 
     padding: 10px;
 }
+.bigpic{
+  height: 100%;
+  width: 100%;
+}
+.bigpic:hover {
+  opacity: 0.5;
+ }
 
 .leftbox {
     padding: 10px;
@@ -61,9 +68,6 @@ header {
     width: 1150px;
     height: 300px;
     padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
   }
  .smallcard {
     display: flex;
@@ -71,15 +75,15 @@ header {
     height: 280px;
     padding: 10px;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    
-
- }
+  }
  .picture{
     height: 280px;
     width:550px;
+  }
+ .picture:hover {
+  opacity: 0.5;
  }
+ 
  .toprow{
     padding: 10px;
     width: 1150px;
@@ -103,8 +107,23 @@ footer {
     
   }
 
-  @media screen and (min-width: 900px) {
-    article {
-    padding: 1rem 3rem;
+ 
+  @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
     }
+    
+    .smallcard {
+      width: 100%;
+      text-align: center;
+    }
+    .card {
+      width: 100%;
+      text-align: center;
+    }
+    .bigbox {
+      width: 100%;
+      text-align: center;
+    }
+
   }
