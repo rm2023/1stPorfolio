@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+header {
+    text-align: right;
+    padding: 1%;
+    height: 50px;
+    background: #010304;
+    color: #fff;
+  }
+.row {
+    display: flex;
+}
+  nav ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+  }
+
+  nav ul li{
+    margin-right: 15px;
+   
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+.title {
+
+    background:url("/assets/bluewood.jpg");
+    width: 100%;
+    height: 200px;
+    line-height: 350px;
+    color: #f0ead6;
+    text-align: right;
+    font-size: x-large;
+
+}
+
+.bigbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: xx-large; 
+    padding: 10px;
+}
+
+.leftbox {
+    padding: 10px;
+    width: 250px;
+    text-align: right;
+    border-right: 5px solid darkblue; 
+ }
+ .card {
+    display: flex;
+    
+    width: 1150px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+ .smallcard {
+    display: flex;
+    width: 600px;
+    height: 280px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    
+
+ }
+ .picture{
+    height: 280px;
+    width:550px;
+ }
+ .toprow{
+    padding: 10px;
+    width: 1150px;
+    height: 100%;
+   
+ }
+ 
+.descr {
+    padding: 10px;
+}
+
+.info{
+    font-size: medium;
+    padding: 10px;
+    
+}
+footer {
+    display: flex;
+    padding: 2%;
+    background: #010304;or: #fff;
+    
+  }
+
+  @media screen and (min-width: 900px) {
+    article {
+    padding: 1rem 3rem;
+    }
+  }
