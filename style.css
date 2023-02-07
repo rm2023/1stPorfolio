@@ -30,7 +30,7 @@ header {
 
 .title {
 
-    background:url("/assets/bluewood.jpg");
+    background:url("./assets/bluewood.jpg");
     width: 100%;
     height: 200px;
     line-height: 350px;
